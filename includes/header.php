@@ -1,11 +1,11 @@
-<header class="fixed-top">
+<header class="">
     <div class="top-bar">
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid"> <!-- container to container fluid 2018-12-18 -->
+            <div class="row justify-content-between">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 left-side">
                     <a href="" class="deliver-area">Do we deliver in your area?</a>
                 </div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-8 right-side">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 right-side">
                     <div class="row">
                         <ul class="top-nav nav justify-content-end col-12 col-sm-12 col-md-9">
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

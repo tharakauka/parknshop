@@ -10,6 +10,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
 <link rel="stylesheet" href="./css/styles.css">
 
 <title>Park n' Shop</title>
@@ -22,7 +26,7 @@
 
 <div class="container contact-us mt-5">
     <div class="row align-items-center">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-5 rounded bg-white box-shadow">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-5 rounded bg-white box-shadow z-index-1">
             <div class="pl-4 pr-4 pt-4 pb-4">
                 <div class="product-image-slider">
                     <ul id="productImageSlider">
@@ -144,12 +148,12 @@
             </div>
         </div>
     </div>
-
+    <!-- Chnaged to owl carousel 2018-12-18 -->
     <div class="row mt-5">
         <div class="col">
             <h3 class="w700">Pair it with</h3>
-            <ul class="product_loop" id="productLoop">
-                <li>
+            <ul class="product_loop owl-carousel owl-theme" id="productLoop">
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -168,7 +172,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -187,7 +191,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -206,7 +210,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -225,7 +229,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -244,7 +248,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -264,18 +268,15 @@
                     </div>
                 </li>
             </ul>
-            <div class="productLoopNaviIcons navi6">
-                <a href="" id="next6"><i class="fas fa-angle-right"></i></a>
-                <a href="" id="prev6"><i class="fas fa-angle-left"></i></a>
-            </div>
         </div>
     </div>
 
+    <!-- Chnaged to owl carousel 2018-12-18 -->
     <div class="row mt-5">
         <div class="col">
             <h3 class="w700">Alternate Products</h3>
-            <ul class="product_loop" id="productLoopAlter">
-                <li>
+            <ul class="product_loop owl-carousel owl-theme" id="productLoopAlter">
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -294,7 +295,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -313,7 +314,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -332,7 +333,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -351,7 +352,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -370,7 +371,7 @@
                         <a href="" class="btn btn-light btn-add-to-wishlist"><i class="fas fa-heart"></i></a>
                     </div>
                 </li>
-                <li>
+                <li class="item">
                     <div class="pad-10">
                         <h4 class="p_name"><a href="">Instinct Raw150g</a></h4>
                         <div class="p_price">
@@ -390,10 +391,10 @@
                     </div>
                 </li>
             </ul>
-            <div class="productLoopNaviIcons navi7">
+<!--             <div class="productLoopNaviIcons navi7">
                 <a href="" id="next7"><i class="fas fa-angle-right"></i></a>
                 <a href="" id="prev7"><i class="fas fa-angle-left"></i></a>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -410,6 +411,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="js/custom.js"></script>
 
 <script type="text/javascript">
@@ -435,7 +438,46 @@ $(function(){
         }
     })
 
-    $('#productLoop').carouFredSel({
+    $('#productLoop').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            1024:{
+                items:4
+            }
+        },
+        pagination: false,
+        navText:['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    })
+
+
+    $('#productLoopAlter').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            768:{
+                items:3
+            },
+            1024:{
+                items:4
+            }
+        },
+        pagination: false,
+        navText:['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+    })
+
+/*    $('#productLoop').carouFredSel({
         responsive:true,
         width:"100%",
         // auto:false,
@@ -451,9 +493,9 @@ $(function(){
         swipe:{
             onTouch:1
         }
-    })
+    })*/
 
-    $('#productLoopAlter').carouFredSel({
+/*    $('#productLoopAlter').carouFredSel({
         responsive:true,
         width:"100%",
         // auto:false,
@@ -469,7 +511,7 @@ $(function(){
         swipe:{
             onTouch:1
         }
-    })
+    })*/
 })
 </script>
 

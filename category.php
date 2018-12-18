@@ -42,7 +42,7 @@
                     <div class="widget-body">
                         <div class="btn-group w-100" role="group" aria-label="Basic example">
                             <a href="" class="btn btn-link text-secondary sort-by-price">Price</a>
-                            <a href="" class="btn btn-link">Special Offer</a>
+                            <a href="" class="btn btn-link">A - Z</a>
                         </div>
                     </div>
                 </div>
@@ -441,6 +441,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
 
+<script src="js/custom.js"></script>
 <script type="text/javascript">
 $(function(){
     $('#mainSlider').carouFredSel({

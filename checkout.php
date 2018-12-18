@@ -70,7 +70,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group">
-                                        <label class="h5 w700">
+                                        <label class="w700">
                                             <input type="checkbox" name=""> Ship to this address
                                         </label>
                                     </div>
@@ -130,7 +130,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group">
-                                        <label class="h5 w700">
+                                        <label class="w700">
                                             <input type="checkbox" name=""> Ship to this address
                                         </label>
                                     </div>
@@ -219,27 +219,27 @@
                                 <div class="col-12 col-sm-12 col-md-4 substitutions">
                                     <h5 class="w700 mb-4">Substitutions</h5>
                                     <div class="form-group">
-                                        <label class="h5"><input type="radio" name="payment_method"> Call me to substitute unavailable items</label>
+                                        <label class="h6"><input type="radio" name="payment_method"> Call me to substitute unavailable items</label>
                                     </div>
                                     <div class="form-group">
-                                        <label class="h5"><input type="radio" name="payment_method"> Don’t call me, just substitute</label>
+                                        <label class="h6"><input type="radio" name="payment_method"> Don’t call me, just substitute</label>
                                     </div>
                                     <div class="form-group">
-                                        <label class="h5"><input type="radio" name="payment_method"> Don’t deliver unavailable items, dont’t call</label>
+                                        <label class="h6"><input type="radio" name="payment_method"> Don’t deliver unavailable items, dont’t call</label>
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-4">
                                     <h5 class="w700 mb-4">Delivery Address</h5>
-                                    <p class="lead text-dark">Mr. Dhanushka Karunda<br>
+                                    <p class=" text-dark">Mr. Dhanushka Karunda<br>
                                     No 45 Thamar Ne,<br>
                                     Apt 45 g floor<br>
                                     United Arab Emirates</p>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-4">
                                     <h5 class="w700 mb-4">Delivery Time</h5>
-                                    <p class="lead text-dark">Today, Sep 09<br>19:00 - 21:00</p>
+                                    <p class=" text-dark">Today, Sep 09<br>19:00 - 21:00</p>
                                     <h5 class="w700 mb-4">Payment Method</h5>
-                                    <p class="lead text-dark">Card on Delivery</p>
+                                    <p class=" text-dark">Card on Delivery</p>
                                 </div>
                             </div>
                             <hr>
@@ -274,33 +274,33 @@
                                         <td class="text-right cart-price product-cart-total"><span class="price">AED2.00</span></td>
                                     </tr>
                                 </tbody>
-                                <tfoot class="d-block">
+                                <tfoot class=""> <!-- Removed D-block class -->
                                     <tr>
-                                        <td colspan="4" class=" h5">Subtotal</td>
-                                        <td class="text-right h5">AED2.00</td>
+                                        <td colspan="4" class="h6">Subtotal</td>
+                                        <td class="text-right h6">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4" class=" h5">Delivery incl.Vat 5%</td>
-                                        <td class="text-right h5">AED2.00</td>
+                                        <td colspan="4" class=" h6">Delivery incl.Vat 5%</td>
+                                        <td class="text-right h6">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4" class="w700 h5">Order total</td>
-                                        <td class="text-right w700 h5">AED2.00</td>
+                                        <td colspan="4" class="w700 h6">Order total</td>
+                                        <td class="text-right w700 h6">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4" class="w700 h5">Taxable amount</td>
-                                        <td class="text-right w700 h5">AED2.00</td>
+                                        <td colspan="4" class="w700 h6">Taxable amount</td>
+                                        <td class="text-right w700 h6">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4" class="w700 h5">Tax amount</td>
-                                        <td class="text-right w700 h5">AED2.00</td>
+                                        <td colspan="4" class="w700 h6">Tax amount</td>
+                                        <td class="text-right w700 h6">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="4" class="w700 h4 text-primary">Total Payable</td>
-                                        <td class="text-right w700 h4 text-primary">AED2.00</td>
+                                        <td colspan="4" class="w700 h5 text-primary">Total Payable</td>
+                                        <td class="text-right w700 h5 text-primary">AED2.00</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="5" class="h5"><p>*AED 15.7 will be charged for orders below AED 100</p></td>
+                                        <td colspan="5" class="h6"><p>*AED 15.7 will be charged for orders below AED 100</p></td>
                                     </tr>
                                     <tr class="border-top">
                                         <td colspan="3" class="lead">
@@ -308,7 +308,7 @@
                                                 <input type="checkbox" name=""> Click here to accept <a href="" class="text-dark w700">terms and conditions</a>
                                             </label>
                                         </td>
-                                        <td colspan="2" class="text-right w700 h4 text-primary">
+                                        <td colspan="2" class="text-right w700 h5 text-primary">
                                             <a href="" class="btn btn-light btn-rounded-corner">Back</a>
                                             <button class="btn btn-primary btn-rounded-corner">Order now</button>
                                         </td>
